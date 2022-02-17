@@ -1,0 +1,67 @@
+_uuid               : de23da0c-b496-4588-bb4a-266bef2a8d27
+addresses           : ["fa:16:3e:1b:ae:20 192.168.21.230"]
+dhcpv4_options      : ab798819-b71a-48b5-8f84-191e9cde6a96
+dhcpv6_options      : []
+dynamic_addresses   : []
+enabled             : true
+external_ids        : {"neutron:cidrs"="192.168.21.230/24", "neutron:device_id"="ba972d0b-656e-403a-8c12-e3b1b94a5c6e", "neutron:device_owner"="compute:nova", "neutron:network_name"=neutron-39f21401-6b1e-4d66-84b2-cbf975d4f83e, "neutron:port_name"="", "neutron:project_id"="37a78ae59b274d3ca6b4da286b4be655", "neutron:revision_number"="4", "neutron:security_group_ids"="e173d0e0-0749-4fe4-9b4f-1cd21fd07006"}
+ha_chassis_group    : []
+name                : "f217c065-3223-4f0c-a745-651fb5ff91bc"
+options             : {mcast_flood_reports="true", requested-chassis=juju-23fd96-flowhunter-8.project.serverstack}
+parent_name         : []
+port_security       : ["fa:16:3e:1b:ae:20 192.168.21.230"]
+tag                 : []
+tag_request         : []
+type                : ""
+up                  : true
+
+_uuid               : 8baf05ad-1c81-4c68-b376-10a6236b39f5
+addresses           : [router]
+dhcpv4_options      : []
+dhcpv6_options      : []
+dynamic_addresses   : []
+enabled             : true
+external_ids        : {"neutron:cidrs"="10.5.153.123/16", "neutron:device_id"="0196f202-d2c4-476c-aecf-3b35797ac290", "neutron:device_owner"="network:router_gateway", "neutron:network_name"=neutron-79d2d227-4ed4-4241-b659-371e6a2a2ba6, "neutron:port_name"="", "neutron:project_id"="", "neutron:revision_number"="4", "neutron:security_group_ids"=""}
+ha_chassis_group    : []
+name                : "a8aa9adf-f3ce-4c35-8237-8c66bda75068"
+options             : {nat-addresses=router, router-port=lrp-a8aa9adf-f3ce-4c35-8237-8c66bda75068}
+parent_name         : []
+port_security       : []
+tag                 : []
+tag_request         : []
+type                : router
+up                  : true
+
+_uuid               : 4c9a83d5-0180-4fd3-8856-b49f5e5d48f5
+addresses           : [unknown]
+dhcpv4_options      : []
+dhcpv6_options      : []
+dynamic_addresses   : []
+enabled             : []
+external_ids        : {}
+ha_chassis_group    : []
+name                : provnet-dda52c7d-38d2-40a2-8361-ce4ec16336e6
+options             : {mcast_flood="false", mcast_flood_reports="true", network_name=physnet1}
+parent_name         : []
+port_security       : []
+tag                 : []
+tag_request         : []
+type                : localnet
+up                  : false
+
+_uuid               : 86ab52e1-1178-40c5-bd15-c6004557f685
+addresses           : ["fa:16:3e:29:71:7d"]
+dhcpv4_options      : []
+dhcpv6_options      : []
+dynamic_addresses   : []
+enabled             : true
+external_ids        : {"neutron:cidrs"="", "neutron:device_id"=ovnmeta-79d2d227-4ed4-4241-b659-371e6a2a2ba6, "neutron:device_owner"="network:dhcp", "neutron:network_name"=neutron-79d2d227-4ed4-4241-b659-371e6a2a2ba6, "neutron:port_name"="", "neutron:project_id"="37a78ae59b274d3ca6b4da286b4be655", "neutron:revision_number"="1", "neutron:security_group_ids"=""}
+ha_chassis_group    : []
+name                : "98301954-0c34-48d5-b97d-d0b09e76ad05"
+options             : {requested-chassis=""}
+parent_name         : []
+port_security       : []
+tag                 : []
+tag_request         : []
+type                : localport
+up                  : false
