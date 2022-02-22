@@ -15,6 +15,10 @@
 #   + Search in the list of ports the port that has the MAC and IP addresses in
 #     the `addresses` field AND `up` is false.
 #
+# Caveats:
+# - This script could detect as duplicates scenarios where 2 tenants have
+#   allocated a port with the same MAC and IP addresses.
+#
 from __future__ import annotations
 
 import argparse
